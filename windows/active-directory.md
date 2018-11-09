@@ -1,0 +1,28 @@
+# Introduction
+
+Active Directory enables centralized, secure management of an entire network, which might span a building, a city, or multiple locations throughout the world.
+
+![Active Directory Introduction](https://i-technet.sec.s-msft.com/dynimg/IC196825.gif)
+
+> https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc780036(v=ws.10)
+
+# Components
+
+![Structure](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/images%5ccc759186.ccf65c10-edb1-4a3a-ad87-38775ee43b8a%28ws.10%29.gif)
+
+> https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc759186(v%3dws.10)
+
+| Component | Description |
+| --------- | ----------- |
+| Organizational Units | <ul><li>Container object</li><li>Used to arrange other objects</li><li>Easier to locate and manage</li><li>Can delegate the authority to manage</li><li>Can be nested in other organizational units </li></ul>|
+| Domains | <ul><li>Container object</li><li>Collection of administratively defined objects that share a common directory database, security policies, and trust relationships with other domains</li><li>Each domain is an administrative boundary for objects.</li><li>A single domain can span multiple physical locations or sites</li></ul>|
+| Domain Trees | <ul><li>Collections of domains that are grouped together in hierarchical structures</li><li>When you add a domain to a tree, it becomes a child of the tree root domain</li><li>The domain to which a child domain is attached is called the parent domain.</li><li>A child domain might in turn have its own child domain.</li><li>The name of a child domain is combined with the name of its parent domain to form its own unique Domain Name System (DNS) name such as Corp.nwtraders.msft.</li><li>.:. a tree has a contiguous namespace.</li></ul>|
+| Forests | <ul><li>Instance of Active Directory</li><li>Each forest acts as a top-level container in that it houses all domain containers for that particular Active Directory instance</li><li>A forest can contain one or more domain container objects, all of which share a common logical structure, global catalog, directory schema, and directory configuration, as well as automatic two-way transitive trust relationships.</li><li>The first domain in the forest is called the `forest root domain`.</li><li>The name of that domain refers to the forest, such as Nwtraders.msft.</li><li>By default, information in Active Directory is shared only within the forest.</li><li>.:. the forest is a security boundary for the information that is contained in that instance of Active Directory</li></ul>|
+| Site Objects | <ul><li>Leaf and container objects</li><li>Topmost object in the hierarchy of objects that are used to manage and implement Active Directory replication</li><li>Stores the hierarchy of objects that are used by the `Knowledge Consistency Checker (KCC)` to effect the replication topology</li><li>Some of the objects located in: `NTDS Site Settings objects`, `subnet objects`, `connection objects`, `server objects`, and `site objects` (one site object for each site in the forest)</li><li>Hierarchy is displayed as the contents of the Sites container, which is a child of the Configuration container</li></ul>|
+
+> https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc759073(v%3dws.10)
+
+* **Schema** - Defines objects and attributes
+* **Query and index mechanism** - Ability to search and publish objects and properties
+* **Global Catalog** - Contains info about every object in directory
+* **Replication Service** - Distributes information across domain controller

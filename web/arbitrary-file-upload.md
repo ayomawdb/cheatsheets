@@ -1,0 +1,3 @@
+# Filename Suffixes
+
+example.php%

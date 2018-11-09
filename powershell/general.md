@@ -30,6 +30,7 @@ Function
 # Modules
 
 `Import-Module <path_to_module> -verbose`
+`Get-Module -ListAvailable`
 `Get-Command -Module <module_name>`
 
 # Remote Script execution
