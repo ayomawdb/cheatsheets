@@ -64,3 +64,22 @@ master unit to the slave units
 > https://en.wikipedia.org/wiki/Serial_Peripheral_Interface
 
 # I2C
+
+# JTAG
+
+* `TDI - Test Data In`
+* `TDO - Test Data Out` - When you daisychain IC’s with JTAG, the TDO of one goes to the TDI of the next, until it loops back to the debug header.
+* `TCK - Test Clock` - JTAG clock signal, the rising edge triggering a read operation. TCK is not chained, but rather forms a ’test clock bus’ along with TMS each IC can see the clock and TMS signals.
+* `TMS - Test Mode Select` - Read as the clock signal rises, and determines the next state of the internal JTAG controller
+* `TRST - Test Reset` - An optional pin that can reset the internal test controller, but this isn’t required.
+
+
+* Test Access Port (TAP) Controller to handle JTAG commands
+* Minimally 3 registers (instruction register, 2 or more data registers)
+* State-machine that uses the TMS level to decide what to do after each clock cycle
+* TAP controller connects to the boundary cells
+* Boundary Cells can raise/lower a leg’s voltage to influence the behavior of the chip
+
+> Ref: Pentesting Hardware - A Practical Handbook by Mark C. https://github.com/unprovable/PentestHardware
+
+# SWD

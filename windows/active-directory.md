@@ -26,3 +26,13 @@ Active Directory enables centralized, secure management of an entire network, wh
 * **Query and index mechanism** - Ability to search and publish objects and properties
 * **Global Catalog** - Contains info about every object in directory
 * **Replication Service** - Distributes information across domain controller
+
+# Detect Firewall Blocking AD
+
+PortQryUI - http://www.microsoft.com/download/en/details.aspx?id=24009
+* Run the “Domains & Trusts” option between DCs, or between DCs and any machine
+* “NOTLISTENING,” 0x00000001, and 0x00000002, that means there is a port block
+* Can ignore UDP 389 and UDP 88 messages
+* TCP 42 errors, that just means WINS is not running on the target server
+
+> https://blogs.msmvps.com/acefekay/2011/11/01/active-directory-firewall-ports-let-s-try-to-make-this-simple/
