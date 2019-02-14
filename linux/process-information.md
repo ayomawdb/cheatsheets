@@ -2,6 +2,13 @@
 ```
  cat /proc/1234/maps
 ```
+```
+gdb
+info proc mappings
+```
+```
+pmap -d 1234
+```
 
 # System and library calls
 - `ltrace`

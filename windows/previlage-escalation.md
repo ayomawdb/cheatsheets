@@ -1,12 +1,15 @@
+# Options
+* Missing Patches
+* Automated Deployment and Auto Logon Passwords
+* AlwaysInstallElevated (any user can run MSI as SYSTEM)
+* Misconfigured Services
+
+# PowerUp
+
 PowerUp to check for all service misconfigurations:
 ```
 Invoke-AllChecks
 ```
-
-# Missing Patches
-# Automated Deployment and Auto Logon Passwords
-# AlwaysInstallElevated (any user can run MSI as SYSTEM)
-# Misconfigured Services
 
 ## Service Unquoted Path
 
@@ -72,4 +75,19 @@ Invoke-TokenManipulation -ImpersonateUser -Username "domain\user"
 Start new process with token of another process
 ```
 Invoke-TokenManipulation -CreateProcess "C:\Windown\system32\WindowsPowerShell\v1.0\PowerShell.exe" -ProcessId 500
+```
+
+
+# Service privilages
+```
+icacls example.exe
+```
+If example.exe is writable to everyone, low privilege user can replace the exe with some other binary
+
+# Important Payloads
+- `MS11-080` AfdJoinLeaf xp 2003 both 32 and 64 / MS12-042
+
+```
+python py installer module
+python pyinsaller.py --onefile example.py
 ```

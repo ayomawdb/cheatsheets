@@ -1,15 +1,10 @@
-
-
-
+# Version information
 ```
-gdb
-info proc mappings
-```
-
-```
-pmap -d 1234
+cat /etc/issue
+uname -a
 ```
 
 # Sys calls
-
+```
 /usr/include /i386-linux-gnu/asm/unistd_32.h
+```

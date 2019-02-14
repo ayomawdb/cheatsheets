@@ -41,3 +41,15 @@ Find and ls SUID / SGID
 ```
 find "$DIRECTORY" -perm /6000 -exec ls -la {} \;
 ```
+
+# Searching world writable files
+```
+find / -perm -w ~ -type l -ls 2?/dev/null
+```
+
+# Important Payloads
+- Mempodipper compiled (Ubuntu 11 -> gimmeroot.c)
+
+# References
+
+- Linux Local Privilege Escalation via SUID /proc/pid/mem Write - https://git.zx2c4.com/CVE-2012-0056/about/
