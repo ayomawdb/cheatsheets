@@ -15,7 +15,7 @@ Exam Guide: https://support.offensive-security.com/#!oscp-exam-guide.md
 
 * https://github.com/enaqx/awesome-pentest
 * https://xapax.gitbooks.io/security/content/
-*
+
 # Networking References
 
 * Networking Basics: TCP, UDP, TCP/IP and OSI Model - https://www.pluralsight.com/blog/it-ops/networking-basics-tcp-udp-tcpip-osi-models

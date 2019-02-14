@@ -1,14 +1,5 @@
-# CPU Information
 
-```
-lscpu
-cat /proc/cpuinfo
-```
 
-# Memory map for a process
-```
- cat /proc/1234/maps
-```
 
 ```
 gdb
