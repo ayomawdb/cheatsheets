@@ -39,3 +39,7 @@ cmd.exe /c wevtutil.exe cl Security
 > https://docs.microsoft.com/en-us/cpp/build/reference/dumpbin-reference?view=vs-2017
 
 Displays information about Common Object File Format (COFF) binary files. You can use DUMPBIN to examine COFF object files, standard libraries of COFF objects, executable files, and dynamic-link libraries (DLLs).
+
+# HTA
+
+Application where source code consists of HTML, Dynamic HTML, and one or more scripting languages supported by Internet Explorer, such as VBScript or JScript. An HTA executes without the constraints of the internet browser security model; it executes as a "fully trusted" application.

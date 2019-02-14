@@ -40,3 +40,13 @@ Function
 * `powershell -EncodedCommand <Base64EncodedCommand>`
 
 * Craft Download Cradles: https://github.com/danielbohannon/Invoke-CradleCrafter
+
+# Command History (PSReadline)
+
+```
+cat (Get-PSReadlineOption).HistorySavePath | sls password
+```
+By default, the path is:
+```
+profile:\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
+```
