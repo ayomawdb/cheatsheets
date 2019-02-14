@@ -14,9 +14,7 @@ Advanced Header Filtering
 
     tcpdump -A -n 'tcp[13] = 24' -­‐r password_cracking_filtered.pcap
 
-
-
-
+[![](https://github.com/ayomawdb/cheatsheets/raw/master/.data/.images/tcpdump_001.png)]
 
 -nn stop DNS and service names lookup (performance+)
 -X and -XX can be used to print each packet in hex and ascii
