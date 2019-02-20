@@ -19,3 +19,12 @@ https://github.com/samratashok/nishang/blob/master/Utility/Invoke-Encode.ps1
 # Capture NTLM
 
 https://github.com/Kevin-Robertson/Inveigh
+
+# Obfuscation
+
+- https://github.com/danielbohannon/Invoke-Obfuscation
+- https://github.com/danielbohannon/Invoke-DOSfuscation
+
+# Fileless Malware
+
+Invoke-NoShell outputs a Microsoft Office Word .doc file with an embedded macro: https://github.com/G4lB1t/Invoke-NoShell

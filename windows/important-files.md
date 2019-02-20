@@ -1,3 +1,7 @@
+# Collections
+
+- Living Off The Land Binaries and Scripts: https://lolbas-project.github.io/ li, https://github.com/LOLBAS-Project/LOLBAS
+
 # wbadmin / ntbackup
 
 > https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/wbadmin
@@ -43,3 +47,32 @@ Displays information about Common Object File Format (COFF) binary files. You ca
 # HTA
 
 Application where source code consists of HTML, Dynamic HTML, and one or more scripting languages supported by Internet Explorer, such as VBScript or JScript. An HTA executes without the constraints of the internet browser security model; it executes as a "fully trusted" application.
+
+# Prefetch Files Created
+
+- AT.EXE (scheduled jobs/tasks)
+- SCHTASKS.EXE (scheduled jobs/tasks)
+- CMD.EXE (Obviously common, but I included it anyway. Especially if the prefetch hash doesn't match the legitimate ones. )
+- NET.EXE (net view, etc.)
+- NET1.EXE (net use)
+- NETSTAT.EXE (netstat -ano)
+- REG.EXE (reg query and reg add)
+- SC.EXE (interact with services)
+- SYSTEMINFO.EXE (system profiling)
+- TASKKILL.EXE (kill running processes)
+- TASKLIST.EXE (tasklist /v)
+- POWERSHELL.EXE (interact with powershell)
+- NBTSTAT.EXE (profile)
+- XCOPY.EXE (copy files around)
+- NSLOOKUP.EXE (profile)
+- QUSER.EXE (profile)
+- RAR.EXE (Exfil or Tool dropping) * And other archive utilities (Ex. 7zip)
+- PING.EXE (check connectivity)
+- FTP.EXE (download/upload)
+- Various Sysinternal tools (Psexec, sdelete, etc.)
+- BITSADMIN.EXE (download/upload)
+- ROUTE.EXE (adding persistent routes)
+- REGSVR32.EXE (services)
+- MAKECAB.EXE (compression before exfil)
+
+> Originally form: http://www.sysforensics.org/2014/01/lateral-movement/. Link is no longer working

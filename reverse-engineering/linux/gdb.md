@@ -1,3 +1,8 @@
+# Profiles
+
+- PEDA - http://ropshell.com/peda/Linux_Interactive_Exploit_Development_with_GDB_and_PEDA_Slides.pdf
+-  
+
 # Display Information
 ```
 info registers

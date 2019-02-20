@@ -37,6 +37,17 @@ PortQryUI - http://www.microsoft.com/download/en/details.aspx?id=24009
 
 > https://blogs.msmvps.com/acefekay/2011/11/01/active-directory-firewall-ports-let-s-try-to-make-this-simple/
 
-# Implementing Least Privilege Model 
+# Implementing Least Privilege Model
 
 https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/implementing-least-privilege-administrative-models
+
+# Scanning
+
+```
+pingcastle.exe --healthcheck --server <DOMAIN_CONTROLLER_IP> --user <USERNAME> --password <PASSWORD> --advanced-live --nullsession
+```
+
+# Securing
+
+- Active Directory Core Security Principles &
+Best Practices:  https://ernw.de/download/AD_Summit_2018/01_AD_Summit_CoreSecPrinciples_fk_hw_v.1.2_signed.pdf

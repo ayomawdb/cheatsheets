@@ -1,3 +1,16 @@
+# Bloodhound
+
+BloodHound uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment. Attackers can use BloodHound to easily identify highly complex attack paths that would otherwise be impossible to quickly identify.
+
+- GitHub: https://github.com/BloodHoundAD/BloodHound
+
+Find where domain admins are logged in:
+```
+python http://bloodhound.py  -u <USERNAME> -p <PASSWORD> -d <DOMAIN_NAME> -dc <DOMAIN_CONTROLLER_HOSTNAME>
+neo4j start
+bloodhound
+```
+
 # Mimkatz
 
 ## DCSync

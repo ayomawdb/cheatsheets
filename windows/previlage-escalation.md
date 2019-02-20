@@ -4,6 +4,10 @@
 * AlwaysInstallElevated (any user can run MSI as SYSTEM)
 * Misconfigured Services
 
+# Tools
+
+- BeRoot: https://github.com/AlessandroZ/BeRoot/tree/master/Windows
+
 # PowerUp
 
 PowerUp to check for all service misconfigurations:

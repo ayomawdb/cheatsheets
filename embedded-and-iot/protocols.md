@@ -22,6 +22,8 @@ Number of data bits/number of parity bits/number of stop bits
 
 > Ref: Pentesting Hardware - A Practical Handbook by Mark C. https://github.com/unprovable/PentestHardware
 
+- UART to Root [Pending]: https://exfil.co/2019/02/14/uart-to-root-the-harder-way/
+
 # SPI
 
 * `MISO - Master In Slave Out` - Data flow from the slave units to the master unit

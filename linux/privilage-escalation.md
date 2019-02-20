@@ -1,3 +1,7 @@
+# Tools
+
+- BeRoot: https://github.com/AlessandroZ/BeRoot/tree/master/Linux
+
 # File Permissions
 
 * Check file permissions of /etc/passwd and /etc/shadow
@@ -48,7 +52,12 @@ find / -perm -w ~ -type l -ls 2?/dev/null
 ```
 
 # Important Payloads
+
 - Mempodipper compiled (Ubuntu 11 -> gimmeroot.c)
+
+# Exploits
+
+- Ubuntu (<= 18.10) - Dirty Sock: https://shenaniganslabs.io/2019/02/13/Dirty-Sock.html
 
 # References
 

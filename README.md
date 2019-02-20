@@ -14,3 +14,7 @@ Exploit:
 VPN Services:
 * NordVPN
 * MonoVM
+
+# Other Collections
+
+- Red Team Tips: https://vincentyiu.co.uk/red-team-tips/

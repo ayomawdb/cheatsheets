@@ -1,0 +1,1 @@
+- We Need to Kill the ‘Security Analyst’: https://medium.com/@LargeCardinal/we-need-to-kill-the-security-analyst-79ec205651f5
