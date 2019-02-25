@@ -13,3 +13,11 @@ A library to load, manipulate, dump PE files.
 Helps you explore alternate data streams, #PE/#ELF data and anomalies, file signatures, EXIF data, MZ header, #OpenSBI, #PEiD, #VirusTotal, Android and iOS app (file) info, all in one neat UI.
 
 - Home: https://www.safer-networking.org/products/filealyzer/
+
+# WinDbg
+
+- Toy scripts for playing with WinDbg JS API: https://github.com/hugsy/windbg_js_scripts
+
+# Tools
+
+- HXD - Hex Editor: https://mh-nexus.de/en/hxd/

@@ -13,3 +13,9 @@ which sbd
 find  /  -­‐name  sbd*
 find / --name sdb* --exec file {} \;
   ```
+
+# Search for hidden (dot) files
+
+```
+find / -type d -name ".*"
+```

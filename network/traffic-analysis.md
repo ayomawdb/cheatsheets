@@ -1,4 +1,16 @@
-# General
+# Tools
+
+- Netcap - A framework for secure and scalable network traffic analysis: https://github.com/dreadl0ck/netcap
+
+# PA Toolkit (Pentester Academy Wireshark Toolkit)
+
+PA Toolkit is a collection of traffic analysis plugins to extend the functionality of Wireshark from a micro-analysis tool and protocol dissector to the macro analyzer and threat hunter.
+
+- GitHub: https://github.com/pentesteracademy/patoolkit
+
+# TShark
+
+## General
 
 Supported network interfaces
 ```

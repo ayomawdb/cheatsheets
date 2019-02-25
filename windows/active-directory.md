@@ -47,7 +47,12 @@ https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-bes
 pingcastle.exe --healthcheck --server <DOMAIN_CONTROLLER_IP> --user <USERNAME> --password <PASSWORD> --advanced-live --nullsession
 ```
 
+- Automating AD Enumeration (Bloodhound, PowerUp, Responder, CrackMapExec): https://medium.com/bugbountywriteup/automating-ad-enumeration-with-frameworks-f8c7449563be
+
 # Securing
 
-- Active Directory Core Security Principles &
-Best Practices:  https://ernw.de/download/AD_Summit_2018/01_AD_Summit_CoreSecPrinciples_fk_hw_v.1.2_signed.pdf
+- Active Directory Core Security Principles & Best Practices:  https://ernw.de/download/AD_Summit_2018/01_AD_Summit_CoreSecPrinciples_fk_hw_v.1.2_signed.pdf
+- Active Directory Kill Chain Attack & Defense: https://github.com/infosecn1nja/AD-Attack-Defense
+- Microsoft-Blue-Forest: https://github.com/rootsecdev/Microsoft-Blue-Forest
+  - Welcome to building your first domain controller!: https://github.com/rootsecdev/Microsoft-Blue-Forest/blob/master/FirstDomainControllerInstall.md
+- Pwn and Defend - Active Directory Domain Enumeration: https://www.youtube.com/watch?v=YxeXfHkHAUI&feature=youtu.be

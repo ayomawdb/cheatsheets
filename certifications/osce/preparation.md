@@ -1,3 +1,7 @@
+# Unread Guides
+
+- https://tulpa-security.com/2017/07/18/288/
+
 # Amin Bohio
 > https://aminbohio.com/study-guide-tips-offensive-security-certified-expert-osce-cracking-the-perimeter-ctp/
 

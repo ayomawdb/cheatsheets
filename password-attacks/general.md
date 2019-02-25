@@ -65,3 +65,8 @@ oclHashcat input file should be in format: `passwordhash:salt`
 ```
 oclHashcat-plus64.bin -m 110 hashes.txt ../big-wordlist --force
 ```
+
+# Password Spraying
+
+- Spray: https://github.com/SpiderLabs/Spray
+- Password spraying using AWS Lambda for IP rotation: https://github.com/ustayready/CredKing

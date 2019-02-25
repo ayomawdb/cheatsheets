@@ -1,0 +1,1 @@
+- Linux hardening checklist: https://github.com/trimstray/linux-hardening-checklist

@@ -18,3 +18,15 @@ STEP 5: Crack:
 hashcat -a 0 -m 16800 -w 4 wpa2_pmkid_hash.txt dict.txt
 
 > https://mobile.twitter.com/netmux/status/1097908867374215168
+
+# WPA enterprise (evil tween attack)
+
+- https://pwn.no0.be/exploitation/wifi/wpa_enterprise/
+
+# WiFi Wardriving with Android
+
+- WiGLE WiFi Wardriving: https://play.google.com/store/apps/details?id=net.wigle.wigleandroid&hl=en
+
+# Tracking
+
+- Tracking All the WiFi Things: https://osintcurio.us/2019/01/15/tracking-all-the-wifi-things/

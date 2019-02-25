@@ -1,4 +1,6 @@
-Exam Guide: https://support.offensive-security.com/#!oscp-exam-guide.md
+Exam Guide: https://support.offensive-security.com/oscp-exam-guide/
+Exam Dat Prep: https://www.vortex.id.au/2017/05/oscp-exam-preparation-exam-day-report-day/
+Cheatsheets: https://github.com/jmfrouin/Offensive-Security-OSCP-Cheatsheets / https://ired.team/
 
 # Sources
 
@@ -6,15 +8,29 @@ Exam Guide: https://support.offensive-security.com/#!oscp-exam-guide.md
 > https://www.abatchy.com/2017/03/how-to-prepare-for-pwkoscp-noob
 > https://awansec.com/oscp-review.html
 > https://teckk2.github.io/category/OSCP.html
+> https://webcache.googleusercontent.com/search?q=cache:-QYejCxK0agJ:https://www.netsecfocus.com/oscp/review/2019/01/29/An_Adventure_to_Try_Harder_Tjnulls_OSCP_Journey.html+&cd=1&hl=en&ct=clnk&gl=lk
+> https://web.archive.org/web/20181212154847/https://github.com/mantvydasb/Offensive-Security-OSCP-Cheatsheets
 
 # Sources with more tips:
 
 > https://h4ck.co/oscp-journey-exam-lab-prep-tips/
 
+# Cheatsheets
+
+- http://ired.team/offensive-security-experiments/offensive-security-cheetsheets
+- https://github.com/jmfrouin/Offensive-Security-OSCP-Cheatsheets
+- https://www.matteomalvica.com/pentesting/
+
 # Collections
 
-* https://github.com/enaqx/awesome-pentest
-* https://xapax.gitbooks.io/security/content/
+- https://github.com/enaqx/awesome-pentest
+- https://xapax.gitbooks.io/security/content/
+
+# Practice Boxes
+
+- https://h4cklife.org/2018/05/22/a-pre-exam-for-future-oscp-students/
+  - https://drive.google.com/open?id=1p0U9yYSObcJty5REN88EQzPeDOFauIn0
+  - https://www.secjuice.com/writeup-lazysysadmin-vulnhub/
 
 # Networking References
 
@@ -61,6 +77,7 @@ sshuttle -l (any port) -r root@10.10.0.1 10.10.0.0/24
 
 # Buffer Overflow
 
+* https://github.com/justinsteven/dostackbufferoverflowgood
 * Corelan - https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/
 * https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/
 * https://www.corelan.be/index.php/2009/07/23/writing-buffer-overflow-exploits-a-quick-and-basic-tutorial-part-2/

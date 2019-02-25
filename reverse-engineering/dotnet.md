@@ -18,6 +18,10 @@
 
 > https://blogs.msdn.microsoft.com/astebner/2007/03/14/mailbag-what-version-of-the-net-framework-is-included-in-what-version-of-the-os/
 
+# Tutorials
+
+- Reverse Engineering .NET Applications For Beginners: https://www.youtube.com/watch?v=KOVXWRrd_qg
+
 # Tools
 
 - CFF Explorer: https://ntcore.com/?page_id=388

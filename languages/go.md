@@ -1,3 +1,7 @@
+# Environment
+
+- Preparing Your Environment For Go Development: https://www.gopherguides.com/courses/preparing-your-environment-for-go-development?utm_source=twitter&utm_campaign=install&utm_medium=twitter
+
 # References
 
 * https://github.com/parsiya/Hacking-with-Go

@@ -54,3 +54,13 @@ profile:\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_his
 # Execution Policy
 
 > https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-6
+
+# Collection of Scripts
+
+- https://sid-500.com/downloads/
+- Resource: Infosec PowerShell tools, resources, and authors: https://www.peerlyst.com/posts/resource-infosec-powershell-tools-resources-and-authors?utm_source=twitter&utm_medium=social&utm_content=peerlyst_post&utm_campaign=peerlyst_shared_post
+- Mayhem scripts: https://gist.github.com/M3T4L5T3F
+
+# Resources
+
+- PowerShell Basics for Security Professionals Part 1: https://www.youtube.com/watch?v=B0EsL1j_-qw
