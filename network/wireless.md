@@ -22,6 +22,7 @@ hashcat -a 0 -m 16800 -w 4 wpa2_pmkid_hash.txt dict.txt
 # WPA enterprise (evil tween attack)
 
 - https://pwn.no0.be/exploitation/wifi/wpa_enterprise/
+- https://rootsh3ll.com/evil-twin-attack/
 
 # WiFi Wardriving with Android
 
@@ -30,3 +31,7 @@ hashcat -a 0 -m 16800 -w 4 wpa2_pmkid_hash.txt dict.txt
 # Tracking
 
 - Tracking All the WiFi Things: https://osintcurio.us/2019/01/15/tracking-all-the-wifi-things/
+
+# References
+
+  - How to Make a Captive Portal of Death: https://medium.com/bugbountywriteup/how-to-make-a-captive-portal-of-death-48e82a1d81a

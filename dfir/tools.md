@@ -24,6 +24,7 @@
 - http://www.regxplor.com/
 - https://ericzimmerman.github.io/#!index.
 - RegRipper - Etracting/parsing information (keys, values, data) from the Registry and presenting it for analysis: https://github.com/keydet89/RegRipper2.8
+- RECmd - Command line access to the Registry: https://github.com/EricZimmerman/RECmd
 
 # Respone
 

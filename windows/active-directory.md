@@ -49,6 +49,11 @@ pingcastle.exe --healthcheck --server <DOMAIN_CONTROLLER_IP> --user <USERNAME> -
 
 - Automating AD Enumeration (Bloodhound, PowerUp, Responder, CrackMapExec): https://medium.com/bugbountywriteup/automating-ad-enumeration-with-frameworks-f8c7449563be
 
+# Attack Patterns
+
+- Wagging the Dog: Abusing Resource-Based Constrained Delegation to Attack Active Directory: https://shenaniganslabs.io/2019/01/28/Wagging-the-Dog.html
+- Escalating privileges with ACLs in Active Directory: https://blog.fox-it.com/2018/04/26/escalating-privileges-with-acls-in-active-directory/
+
 # Securing
 
 - Active Directory Core Security Principles & Best Practices:  https://ernw.de/download/AD_Summit_2018/01_AD_Summit_CoreSecPrinciples_fk_hw_v.1.2_signed.pdf

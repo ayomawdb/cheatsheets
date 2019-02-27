@@ -1,3 +1,7 @@
+# PowerUpSQL
+
+- Dumping Active Directory Domain Info – with PowerUpSQL!: https://blog.netspi.com/dumping-active-directory-domain-info-with-powerupsql/
+
 # Bloodhound
 
 BloodHound uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment. Attackers can use BloodHound to easily identify highly complex attack paths that would otherwise be impossible to quickly identify.
@@ -12,6 +16,8 @@ bloodhound
 ```
 
 # Mimkatz
+
+- Mimikatz 2.0 - Golden Ticket Walkthrough: https://www.beneaththewaves.net/Projects/Mimikatz_20_-_Golden_Ticket_Walkthrough.html
 
 ## DCSync
 > https://adsecurity.org/?p=1729

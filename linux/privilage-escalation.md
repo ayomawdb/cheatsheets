@@ -58,7 +58,8 @@ find / -perm -w ~ -type l -ls 2?/dev/null
 # Exploits
 
 - Ubuntu (<= 18.10) - Dirty Sock: https://shenaniganslabs.io/2019/02/13/Dirty-Sock.html
-
+  - https://github.com/initstring/dirty_sock/
+- Ubuntu 14.04 and 16.04: (CVE-2017-1000112) https://cxsecurity.com/issue/WLB-2018010018
 # References
 
 - Linux Local Privilege Escalation via SUID /proc/pid/mem Write - https://git.zx2c4.com/CVE-2012-0056/about/

@@ -1,6 +1,6 @@
 # Setup
 
-- RPi as poor man's hardware hacking tool: https://payatu.com/using-rasberrypi-as-poor-mans-hardware-hacking-tool/
+  - RPi as poor man's hardware hacking tool: https://payatu.com/using-rasberrypi-as-poor-mans-hardware-hacking-tool/
 - https://systemoverlord.com/static/attachments/iot_toolkit.pdf
 
 
@@ -15,3 +15,7 @@ Glasgow = Bus Pirate + Bus Blaster + Logic Sniffer
 - https://twitter.com/marcan42/status/1090564121068593153
 
 Cutdown version of starshipraider: https://github.com/azonenberg/starshipraider
+
+# Tools
+- FACT - The Firmware Analysis and Comparison Tool: https://fkie-cad.github.io/FACT_core/
+- Platform Firmware Auditing Tool: https://github.com/PreOS-Security/fwaudit

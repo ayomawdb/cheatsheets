@@ -77,3 +77,17 @@ proxychains nmap -p 3389 -ST -Pn non-routable-remote-ip-range --oepn
 
 proxychains rdesktop rdp-ip-in-non-routable-range
 ```
+
+# Tools
+- XFLTReaT tunnelling framework: https://github.com/earthquake/XFLTReaT
+```
+TCP
+UDP
+ICMP
+SOCKS v4, 4a, 5
+HTTP CONNECT
+SCTP (by Darren Martyn @info_dox)
+WebSocket
+DNS (A/CNAME, PRIVATE, NULL) - Proof of Concept
+RDP (Windows only)
+```

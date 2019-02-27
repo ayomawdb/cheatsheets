@@ -13,11 +13,15 @@
 - Similar websites
   - https://similarsites.com/
 - Subdomains
+  - Generates permutations, alterations and mutations of subdomains and then resolves them: https://github.com/infosec-au/altdns
+  - https://github.com/aboul3la/Sublist3r
+    - Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu, and Ask. Sublist3r also enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster, and ReverseDNS.
+  - SubFinder is a subdomain discovery tool that discovers valid subdomains for websites: https://github.com/subfinder/subfinder
+  - Knockpy is a python tool designed to enumerate subdomains on a target domain through a wordlist: https://github.com/guelfoweb/knock
   - https://findsubdomains.com/
   - https://pentest-tools.com/information-gathering/find-subdomains-of-domain
   - Abusing Certificate Transparency logs for getting HTTPS websites subdomains: https://github.com/UnaPibaGeek/ctfr
-  - https://github.com/aboul3la/Sublist3r
-    - Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu, and Ask. Sublist3r also enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster, and ReverseDNS.
+  - https://github.com/subfinder/subfinder
 - Source Code Analysis
   - https://publicwww.com/
   - https://nerdydata.com/
@@ -30,6 +34,8 @@
   - https://www.whoisxmlapi.com/
   - https://www.whoxy.com/
 
+
+- OSINT tool for visualizing relationships between domains, IPs and email addresses: https://hackernoon.com/osint-tool-for-visualizing-relationships-between-domains-ips-and-email-addresses-94377aa1f20a
 # Subdomain to IP
 
 - Bouncing through an old expired domain. Trusted in all lists.
@@ -47,9 +53,33 @@ Performs OSINT scan on email/domain/ip_address/organization.
 # Services
 
 - https://www.shodan.io
+  - Find compromised NoSQL systems from Shodan JSON export: https://gist.github.com/n0x08/39c4fef373d0ac02d61da5d1d3865ce5
 - https://censys.io/
 - https://www.binaryedge.io/
+
+- https://viz.greynoise.io/table
+- https://www.zoomeye.org/
+- https://fofa.so/
+- https://www.onyphe.io/
+- https://hunter.io/
+- https://wigle.net/
+- https://ghostproject.fr/
+- https://www.onyphe.io/
+
+- https://inteltechniques.com/blog/2018/09/30/breach-data-search-engines-comparison/
 
 # OS (VM)
 
 - Buscador Investigative Operating System: https://inteltechniques.com/buscador/
+
+# AQUATONE
+
+visual inspection of websites across a large amount of hosts and is convenient for quickly gaining an overview of HTTP-based attack surface.
+
+- GitHub: https://github.com/michenriksen/aquatone
+
+# Social
+- LikedIn: https://github.com/vysecurity/LinkedInt
+
+# Other
+- EyeWitness - take screenshots of websites, provide some server header info, and identify default credentials if possible: https://github.com/FortyNorthSecurity/EyeWitness

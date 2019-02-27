@@ -1,3 +1,7 @@
+# References
+- Exploiting Vulnerabilities Through Proper Reconnaissance: https://docs.google.com/presentation/d/1xgvEScGZ_ukNY0rmfKz1JN0sn-CgZY_rTp2B_SZvijk/edit#slide=id.g4052c4692d_0_0
+- Recon My Way: https://github.com/ehsahil/recon-my-way
+
 # LazyRecon
 
 An automated approach to performing recon for bug bounty hunting and penetration testing.

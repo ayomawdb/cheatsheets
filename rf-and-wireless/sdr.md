@@ -62,7 +62,15 @@ script handling packets coming in from GNURadio via ZMQ and doing some decoding
 - USB HID Keyboard: https://github.com/mame82/P4wnP1_aloa/blob/master/hid/keyboard_globals.go#L6
 - Logitech: https://twitter.com/mame82/status/1077191504412721152
 - Logitech Unifying After patches: https://twitter.com/mame82/status/1093859460102131717
+  - https://threatpost.com/logitech-keystroke-injection-flaw/139928/
 - GreHack 2018: Trap Your Keyboard 101 - Marion Lafon: https://www.youtube.com/watch?v=bXMx6lt3Gz0
+
+# QSpectrumAnalyzer
+
+Spectrum analyzer for multiple SDR platforms (PyQtGraph based GUI for soapy_power, hackrf_sweep, rtl_power, rx_power and other backends)
+
+https://github.com/xmikos/qspectrumanalyzer
+https://twitter.com/YashinMehaboobe/status/1092150871360712704
 
 # Resources
 
@@ -70,3 +78,9 @@ script handling packets coming in from GNURadio via ZMQ and doing some decoding
   - https://www.youtube.com/watch?v=Q-0u87eFAm8
 - TALKS FROM THE 2018 GNU RADIO CONFERENCE: https://www.rtl-sdr.com/talks-from-the-2018-gnu-radio-conference/
 - Picking a Needle in a Haystack: Detecting Drones via Network Traffic Analysis: https://arxiv.org/pdf/1901.03535.pdf
+- Listening in to a DECT Digital Cordless Phone with a HackRF: https://www.rtl-sdr.com/listening-in-to-a-dect-digital-cordless-phone-with-a-hackrf/
+- Building a Carbon Fibre Dual Band Yagi Antenna for Amateur Radio Satellites with 3D Printed Parts for 20€: https://www.rtl-sdr.com/building-a-carbon-fibre-dual-band-yagi-antenna-for-amateur-radio-satellites-with-3d-printed-parts-for-20e/
+- Eavesdropping on DECT6.0 Cordless Phones with a HackRF and GR-DECT2: https://www.rtl-sdr.com/youtube-tutorial-eavesdropping-on-dect6-0-cordless-phones-with-a-hackrf-and-gr-dect2/
+- Implementing your own mobile phone: https://twitter.com/G33KatWork/status/1078580869844140032
+- Breaking LTE on Layer Two: https://alter-attack.net/
+- PCILeech uses PCIe hardware devices to read and write from the target system memory: https://github.com/ufrisk/pcileech

@@ -20,6 +20,18 @@
 ## SickOS1.2
 ## SkyTower
 ## Pinky’s Palace
+## /dev/random: scream
+## pWnOS
+## Metasploitable 1
+## Metasploitable 2
+## Lin.Security
+## Temple of Doom
+
+## Pinky’s Palace v1
+## Pinky’s Palace v2
+## Pinky’s Palace v3
+## Pinky’s Palace v4
+## zico2
 
 # For Windows
 * Hack The Box

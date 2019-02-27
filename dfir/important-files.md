@@ -40,4 +40,10 @@ Each time a session is started the user profile is loaded. This action leaves a 
 - Last Shutdown: `HKLM\SYSTEM\CurrentControlSet\Control\Windows` -> `ShutdownTime`
 - Build Number:  `HKLM\SOFTWARE\Microsoft\Windows\NT\CurrentVersion\CurrentBuildNumber`
 
+- Important Registry Locations Collection: https://www.dfir.training/resources/downloads/windows-registry
+
 ## Prefetch
+
+## File extensions of interest
+
+http://www.hexacorn.com/blog/2019/02/11/file-extensions-of-interest/

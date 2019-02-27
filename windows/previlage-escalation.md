@@ -7,7 +7,7 @@
 # Guides
 - https://www.absolomb.com/2018-01-26-Windows-Privilege-Escalation-Guide/
 - Windows Privilege Escalation Fundamentals: http://www.fuzzysecurity.com/tutorials/16.html
-  - http://www.fuzzysecurity.com/tutorials.html
+  -
 
 # Tools
 

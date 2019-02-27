@@ -8,6 +8,9 @@ PA Toolkit is a collection of traffic analysis plugins to extend the functionali
 
 - GitHub: https://github.com/pentesteracademy/patoolkit
 
+# Sample Captures:
+- https://wiki.wireshark.org/SampleCaptures
+
 # TShark
 
 ## General

@@ -1,6 +1,9 @@
 # Unread Guides
 
 - https://tulpa-security.com/2017/07/18/288/
+- https://m101.github.io/binholic/2018/04/28/yet-another-osce-review.html
+- https://github.com/FabioBaroni/awesome-exploit-development
+
 
 # Amin Bohio
 > https://aminbohio.com/study-guide-tips-offensive-security-certified-expert-osce-cracking-the-perimeter-ctp/
