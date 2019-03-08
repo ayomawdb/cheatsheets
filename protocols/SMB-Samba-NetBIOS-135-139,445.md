@@ -5,6 +5,7 @@
 - SMB2.1 - Windows 7 and Windows 2008 R2
 - SMB3 - Windows 8 and Windows 2012
 
+`135`, `137` -
 `445`- SMB over IP (used when SMB is used directly on TCP stack, without using NetBIOS)
 `139`- NBT over IP
 
@@ -122,3 +123,20 @@ rpcclient -U "" ip (give empty password)
 - nbtscan
 - enum4linux
 - rpcclient
+
+# Samba Configuration
+Configuration file:
+```
+/etc/samba/smb.conf
+```
+
+Test & reload configuration
+```
+testparm -v
+service smb restart
+```
+
+User creation:
+```
+smbpasswd -a <username>
+```

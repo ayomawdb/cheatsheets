@@ -26,3 +26,8 @@ set disassembly-flavor intel
 ```
 disassemble $eip
 ```
+
+# Print Type Information
+```
+ptype Student
+```

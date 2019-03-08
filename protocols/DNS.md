@@ -1,2 +1,0 @@
-- Payload Delivery Over DNS: https://github.com/no0be/DNSlivery
-- DNS Rebind Toolkit https://github.com/Kinimiwar/dns-rebind-toolkit

@@ -33,9 +33,9 @@
 ## Pinky’s Palace v4
 ## zico2
 
-# For Windows
-* Hack The Box
-* Metasploitable 3 - https://github.com/rapid7/metasploitable3/wiki
-* https://github.com/magnetikonline/linuxmicrosoftievirtualmachines
-* /dev/random: Sleepy - https://www.vulnhub.com/entry/devrandom-sleepy,123/
-* Bobby: 1 - https://www.vulnhub.com/entry/bobby-1,42/
+# Windows
+- Hack The Box
+- Metasploitable 3 - https://github.com/rapid7/metasploitable3/wiki
+- https://github.com/magnetikonline/linuxmicrosoftievirtualmachines
+- /dev/random: Sleepy - https://www.vulnhub.com/entry/devrandom-sleepy,123/
+- Bobby: 1 - https://www.vulnhub.com/entry/bobby-1,42/

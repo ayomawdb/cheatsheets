@@ -1,23 +1,35 @@
 - Exam Guide: https://support.offensive-security.com/oscp-exam-guide/
-- Exam Dat Prep: https://www.vortex.id.au/2017/05/oscp-exam-preparation-exam-day-report-day/
-- Cheatsheets: https://github.com/jmfrouin/Offensive-Security-OSCP-Cheatsheets / https://ired.team/
+- Exam Day Prep: https://www.vortex.id.au/2017/05/oscp-exam-preparation-exam-day-report-day/
 - https://guide.offsecnewbie.com/
+
+- [-] Cheatsheets: https://github.com/jmfrouin/Offensive-Security-OSCP-Cheatsheets / https://ired.team/
 - Module Prep Guide: https://tulpasecurity.files.wordpress.com/2016/09/tulpa-pwk-prep-guide1.pdf
 - A comprehensive guide/material for anyone looking to get into infosec or take the OSCP exam: https://github.com/RustyShackleford221/OSCP-Prep
 - https://localhost.exposed/path-to-oscp/
 - https://pentesterlab.com/bootcamp
 - https://www.cybrary.it/course/advanced-penetration-testing/
 - https://danielmiessler.com/study/tcpdump/
+- https://github.com/moshekaplan/pentesting_notes
+- https://0xdf.gitlab.io/tags.html#oscp
+- https://github.com/areyou1or0/OSCP
+- https://www.xservus.com/pwndefend/hacking-101/
 
 # Sources
 
 > https://jhalon.github.io/OSCP-Review/
+>
 > https://www.abatchy.com/2017/03/how-to-prepare-for-pwkoscp-noob
+>
 > https://awansec.com/oscp-review.html
+>
 > https://teckk2.github.io/category/OSCP.html
+>
 > https://webcache.googleusercontent.com/search?q=cache:-QYejCxK0agJ:https://www.netsecfocus.com/oscp/review/2019/01/29/An_Adventure_to_Try_Harder_Tjnulls_OSCP_Journey.html+&cd=1&hl=en&ct=clnk&gl=lk
+>
 > https://web.archive.org/web/20181212154847/https://github.com/mantvydasb/Offensive-Security-OSCP-Cheatsheets
+>
 > https://areyou1or0.blogspot.com/2019/01/finally-oscp-may-force-be-with-you.html
+>
 > https://jordanpotti.com/oscp/
 
 # Sources with more tips:
@@ -39,6 +51,7 @@
 
 # Cheatsheets
 
+- http://packetlife.net/library/cheat-sheets/
 - http://ired.team/offensive-security-experiments/offensive-security-cheetsheets
 - https://github.com/jmfrouin/Offensive-Security-OSCP-Cheatsheets
 - https://www.matteomalvica.com/pentesting/
@@ -72,32 +85,32 @@
 - https://pentest.join.eset.com/dns-discovery
 
 
+
+
+
 # Networking References
 
-* Networking Basics: TCP, UDP, TCP/IP and OSI Model - https://www.pluralsight.com/blog/it-ops/networking-basics-tcp-udp-tcpip-osi-models
-* Common Ports & Protocols - https://pbs.twimg.com/media/DP7axHKUEAALlJB.jpg:large
+> - Networking Basics: TCP, UDP, TCP/IP and OSI Model - https://www.pluralsight.com/blog/it-ops/networking-basics-tcp-udp-tcpip-osi-models
+> - Common Ports & Protocols - https://pbs.twimg.com/media/DP7axHKUEAALlJB.jpg:large
+> * DNS Hacking - http://resources.infosecinstitute.com/dns-hacking/#gref
+> * Port Redirection / Tunneling - https://chamibuddhika.wordpress.com/2012/03/21/ssh-tunnelling-explained/
+> * http://www.debianadmin.com/howto-use-ssh-local-and-remote-port-forwarding.html
+> * http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html
+
+
 * Security+ Section 1: Network Security - https://www.professormesser.com/security-plus/sy0-401/sy0-401-course-index/
 * Nmap Basics - https://nmap.org/bennieston-tutorial/
-* DNS Hacking - http://resources.infosecinstitute.com/dns-hacking/#gref
-* Port Redirection / Tunneling - https://chamibuddhika.wordpress.com/2012/03/21/ssh-tunnelling-explained/
-* http://www.debianadmin.com/howto-use-ssh-local-and-remote-port-forwarding.html
-* http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html
-
-```
-sshuttle -l (any port) -r root@10.10.0.1 10.10.0.0/24
-```
-* https://www.offensive-security.com/metasploit-unleashed/Pivoting/
-* https://www.offensive-security.com/metasploit-unleashed/Portfwd/
 * Understanding Guide for Nmap Ping Scan (Firewall Bypass): https://www.hackingarticles.in/understanding-guide-nmap-ping-scan-firewall-bypass/
 
 # Linux References
 
-* Learn Linux from the safety of your chair using a remote private linux machine with root access: https://linuxzoo.net/
-* Linux Journey - https://linuxjourney.com/
+> * Learn Linux from the safety of your chair using a remote private linux machine with root access: https://linuxzoo.net/
+> * Linux Journey - https://linuxjourney.com/
+> * OverTheWire - Bandit - http://overthewire.org/wargames/bandit/
+> * Bash Scritping Tutorial - https://linuxconfig.org/bash-scripting-tutorial
+> * Null Byte - Linux Basics - https://null-byte.wonderhowto.com/how-to/linux-basics/
+
 * Bash for Beginners - http://www.tldp.org/LDP/Bash-Beginners-Guide/html/
-* OverTheWire - Bandit - http://overthewire.org/wargames/bandit/
-* Bash Scritping Tutorial - https://linuxconfig.org/bash-scripting-tutorial
-* Null Byte - Linux Basics - https://null-byte.wonderhowto.com/how-to/linux-basics/
 * Explainshell - http://www.explainshell.com/
 
 # General
@@ -115,60 +128,13 @@ sshuttle -l (any port) -r root@10.10.0.1 10.10.0.0/24
 - Reconnaissance with Recon-Ng, Part 1 (Getting Started): https://null-byte.wonderhowto.com/how-to/hack-like-pro-reconnaissance-with-recon-ng-part-1-getting-started-0169854/
 
 * SMTP - https://pentestlab.blog/2012/11/20/smtp-user-enumeration/
-```
-nmap –script=smtp-commands,smtp-enum-users,smtp-vuln-cve2010-4344,smtp-vuln-cve2011-1720,smtp-vuln-cve2011-1764 -p 25 10.0.0.1
-```
 * SNMP - http://carnal0wnage.attackresearch.com/2007/07/over-in-lso-chat-we-were-talking-about.html
-```
-snmpwalk -c public -v1 10.0.0.0
-```
 * http://resources.infosecinstitute.com/what-is-enumeration/#gref
 * https://www.sans.edu/cyber-research/security-laboratory/article/attacks-browsing
 * Recon sript: https://github.com/bitsadmin/miscellaneous/blob/master/localrecon.cmd
 * Vanquish: https://github.com/frizb/Vanquish
-```
-nmap -vv -Pn -A -sC -sS -T 4 -p- 10.0.0.1
-dirb http://10.0.0.1 /usr/share/wordlists/dirb/common.txt
-nikto –host http://10.0.0.1
-```
-* SMB
-- https://hackercool.com/2016/07/smb-enumeration-with-kali-linux-enum4linuxacccheck-smbmap/
-```
-enum4linux 10.0.0.1
+* SMB: https://hackercool.com/2016/07/smb-enumeration-with-kali-linux-enum4linuxacccheck-smbmap/
 
-nmap –script=smb-enum-domains.nse,smb-enum-groups.nse,smb-enum-processes.nse,smb-enum-sessions.nse,smb-enum-shares.nse,smb-enum-users.nse,smb-ls.nse,smb-mbenum.nse,smb-os-discovery.nse,smb-print-text.nse,smb-psexec.nse,smb-security-mode.nse,smb-server-stats.nse,smb-system-info.nse,smb-vuln-conficker.nse,smb-vuln-cve2009-3103.nse,smb-vuln-ms06-025.nse,smb-vuln-ms07-029.nse,smb-vuln-ms08-067.nse,smb-vuln-ms10-054.nse,smb-vuln-ms10-061.nse,smb-vuln-regsvc-dos.nse,smbv2-enabled.nse 10.0.0.1
-```
-* MySQL
-```
-nmap -sV -Pn -vv –script=mysql-audit,mysql-databases,mysql-dump-hashes,mysql-empty-password,mysql-enum,mysql-info,mysql-query,mysql-users,mysql-variables,mysql-vuln-cve2012-2122 10.0.0.1 -p 3306
-```
-* FTP
-```
-nmap –script=ftp-anon,ftp-bounce,ftp-libopie,ftp-proftpd-backdoor,ftp-vsftpd-backdoor,ftp-vuln-cve2010-4221,tftp-enum -p 21 10.0.0.1
-```
-
-# Password Attacks
-- https://hashkiller.co.uk
-```
-john hashes.txt
-hashcat -m 500 -a 0 -o output.txt –remove hashes.txt /usr/share/wordlists/rockyou.txt
-```
-```
-hydra 10.0.0.1 http-post-form “/admin.php:target=auth&mode=login&user=^USER^&password=^PASS^:invalid” -P /usr/share/wordlists/rockyou.txt -l admin
-
-hydra -l admin -P /usr/share/wordlists/rockyou.txt -o results.txt ssh://10.0.0.1
-```
-
-# Tunneling
-Tunnels traffic through 10.0.0.1 and makes a route for all traffic destined for 10.10.10.0/24 through your sshuttle tunnel.
-```
-sshuttle -r root@10.0.0.1 10.10.10.0/24
-```
-
-# AV Bypassing
-```
-root@kali:~/Hyperion-1.0# wine hyperion.exe ../backdoor.exe ../backdoor_mutation.exe
-```
 
 # Buffer Overflow
 - https://www.sans.org/reading-room/whitepapers/threats/paper/481

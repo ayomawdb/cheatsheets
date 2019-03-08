@@ -1,0 +1,2 @@
+- Terminator Configuration / Zsh: https://guide.offsecnewbie.com/kali-configuration/terminator-shortcuts
+- CherryTree template: https://guide.offsecnewbie.com/cherrytree-oscp-template

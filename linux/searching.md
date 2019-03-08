@@ -7,6 +7,9 @@ updatedb ; locate sbd.exe
 ```
 which sbd
 ```
+```
+whereis sdb
+```
 
 # Complex:
 ```
