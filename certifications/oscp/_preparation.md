@@ -1,8 +1,13 @@
 - Exam Guide: https://support.offensive-security.com/oscp-exam-guide/
 - Exam Day Prep: https://www.vortex.id.au/2017/05/oscp-exam-preparation-exam-day-report-day/
 - https://guide.offsecnewbie.com/
+- TJNulls_Preparation_Guide: https://www.netsecfocus.com/oscp/2019/03/29/The_Journey_to_Try_Harder-_TJNulls_Preparation_Guide_for_PWK_OSCP.html
 
-- [-] Cheatsheets: https://github.com/jmfrouin/Offensive-Security-OSCP-Cheatsheets / https://ired.team/
+# Focused Cheetsheets
+- Cheatsheets:  https://ired.team/ / https://github.com/jmfrouin/Offensive-Security-OSCP-Cheatsheets
+- OSCP-Cheatsheet-God: https://github.com/sumas/OSCP-Cheatsheet-God
+
+# Guides
 - Module Prep Guide: https://tulpasecurity.files.wordpress.com/2016/09/tulpa-pwk-prep-guide1.pdf
 - A comprehensive guide/material for anyone looking to get into infosec or take the OSCP exam: https://github.com/RustyShackleford221/OSCP-Prep
 - https://localhost.exposed/path-to-oscp/
@@ -16,21 +21,14 @@
 
 # Sources
 
-> https://jhalon.github.io/OSCP-Review/
->
-> https://www.abatchy.com/2017/03/how-to-prepare-for-pwkoscp-noob
->
-> https://awansec.com/oscp-review.html
->
-> https://teckk2.github.io/category/OSCP.html
->
-> https://webcache.googleusercontent.com/search?q=cache:-QYejCxK0agJ:https://www.netsecfocus.com/oscp/review/2019/01/29/An_Adventure_to_Try_Harder_Tjnulls_OSCP_Journey.html+&cd=1&hl=en&ct=clnk&gl=lk
->
-> https://web.archive.org/web/20181212154847/https://github.com/mantvydasb/Offensive-Security-OSCP-Cheatsheets
->
-> https://areyou1or0.blogspot.com/2019/01/finally-oscp-may-force-be-with-you.html
->
-> https://jordanpotti.com/oscp/
+> - https://jhalon.github.io/OSCP-Review/
+> - https://www.abatchy.com/2017/03/how-to-prepare-for-pwkoscp-noob
+> - https://awansec.com/oscp-review.html
+> - https://teckk2.github.io/category/OSCP.html
+> - https://webcache.googleusercontent.com/search?q=cache:-QYejCxK0agJ:https://www.netsecfocus.com/oscp/review/2019/01/29/An_Adventure_to_Try_Harder_Tjnulls_OSCP_Journey.html+&cd=1&hl=en&ct=clnk&gl=lk
+> - https://web.archive.org/web/20181212154847/https://github.com/mantvydasb/Offensive-Security-OSCP-Cheatsheets
+> - https://areyou1or0.blogspot.com/2019/01/finally-oscp-may-force-be-with-you.html
+> - https://jordanpotti.com/oscp/
 
 # Sources with more tips:
 
@@ -42,7 +40,6 @@
 - https://gist.github.com/cokebottle/3e0916522dc09086ee45e5a93d664f16
 - https://www.exploit-db.com/papers/12902
 
-
 # Resources
 - Pentest Monkey - Post Exploitation Without a TTY: http://pentestmonkey.net/blog/post-exploitation-without-a-tty
 - Phineas Fisher Hacks Catalan Police Union Website: https://www.youtube.com/watch?v=oI_ZhFCS3AQ#t=25m53s
@@ -50,7 +47,11 @@
 - Windows / Linux Local Privilege Escalation Workshop: https://github.com/sagishahar/lpeworkshop
 
 # Cheatsheets
-
+- Transferring Files from Linux to Windows (post-exploitation): https://blog.ropnop.com/transferring-files-from-kali-to-windows/
+- Linux: Basic Linux Privilege Escalation - https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
+- Windows post exploration commands: http://www.handgrep.se/repository/cheatsheets/postexploitation/WindowsPost-Exploitation.pdf
+- https://github.com/tkal/The-Security-Handbook
+- https://github.com/absolomb/Pentesting/blob/master/guides/LinuxPrivEsc.md
 - http://packetlife.net/library/cheat-sheets/
 - http://ired.team/offensive-security-experiments/offensive-security-cheetsheets
 - https://github.com/jmfrouin/Offensive-Security-OSCP-Cheatsheets
@@ -67,7 +68,9 @@
 - Metasploit: https://www.tunnelsup.com/metasploit-cheat-sheet/
 
 # Collections
-
+* windows-kernel-exploits Windows: https://github.com/SecWiki/windows-kernel-exploits
+* http://pwnwiki.io/#!privesc/windows/index.md
+* https://github.com/netbiosX/Checklists
 - https://github.com/enaqx/awesome-pentest
 - https://xapax.gitbooks.io/security/content/
 - NetSec Focus - Learning Resources: https://docs.google.com/spreadsheets/d/12bT8APhWsL-P8mBtWCYu4MLftwG1cPmIL25AEBtXDno/edit#gid=1556200786
@@ -78,18 +81,12 @@
 - https://sqlwiki.netspi.com/?dbms=SQLServer
 
 # Practice Boxes
-
 - https://h4cklife.org/2018/05/22/a-pre-exam-for-future-oscp-students/
   - https://drive.google.com/open?id=1p0U9yYSObcJty5REN88EQzPeDOFauIn0
   - https://www.secjuice.com/writeup-lazysysadmin-vulnhub/
 - https://pentest.join.eset.com/dns-discovery
 
-
-
-
-
 # Networking References
-
 > - Networking Basics: TCP, UDP, TCP/IP and OSI Model - https://www.pluralsight.com/blog/it-ops/networking-basics-tcp-udp-tcpip-osi-models
 > - Common Ports & Protocols - https://pbs.twimg.com/media/DP7axHKUEAALlJB.jpg:large
 > * DNS Hacking - http://resources.infosecinstitute.com/dns-hacking/#gref
@@ -97,13 +94,11 @@
 > * http://www.debianadmin.com/howto-use-ssh-local-and-remote-port-forwarding.html
 > * http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html
 
-
 * Security+ Section 1: Network Security - https://www.professormesser.com/security-plus/sy0-401/sy0-401-course-index/
 * Nmap Basics - https://nmap.org/bennieston-tutorial/
 * Understanding Guide for Nmap Ping Scan (Firewall Bypass): https://www.hackingarticles.in/understanding-guide-nmap-ping-scan-firewall-bypass/
 
 # Linux References
-
 > * Learn Linux from the safety of your chair using a remote private linux machine with root access: https://linuxzoo.net/
 > * Linux Journey - https://linuxjourney.com/
 > * OverTheWire - Bandit - http://overthewire.org/wargames/bandit/
@@ -113,40 +108,33 @@
 * Bash for Beginners - http://www.tldp.org/LDP/Bash-Beginners-Guide/html/
 * Explainshell - http://www.explainshell.com/
 
-# General
-
-* File transfer from Kali to Windows - https://blog.ropnop.com/transferring-files-from-kali-to-windows/
-
 # Python References
-
 - Codecademy - Python - https://www.codecademy.com/learn/learn-python
 - Python 2.7.14 Documentation - https://docs.python.org/2/index.html
 - Violent Python
 
 # Enumeration
-- Enumeration: http://0daysecurity.com/penetration-testing/enumeration.html
-- Reconnaissance with Recon-Ng, Part 1 (Getting Started): https://null-byte.wonderhowto.com/how-to/hack-like-pro-reconnaissance-with-recon-ng-part-1-getting-started-0169854/
-
-* SMTP - https://pentestlab.blog/2012/11/20/smtp-user-enumeration/
-* SNMP - http://carnal0wnage.attackresearch.com/2007/07/over-in-lso-chat-we-were-talking-about.html
-* http://resources.infosecinstitute.com/what-is-enumeration/#gref
-* https://www.sans.edu/cyber-research/security-laboratory/article/attacks-browsing
-* Recon sript: https://github.com/bitsadmin/miscellaneous/blob/master/localrecon.cmd
-* Vanquish: https://github.com/frizb/Vanquish
-* SMB: https://hackercool.com/2016/07/smb-enumeration-with-kali-linux-enum4linuxacccheck-smbmap/
-
+> - Enumeration: http://0daysecurity.com/penetration-testing/enumeration.html
+> * SMTP - https://pentestlab.blog/2012/11/20/smtp-user-enumeration/
+> * SNMP - http://carnal0wnage.attackresearch.com/2007/07/over-in-lso-chat-we-were-talking-about.html
+> * http://resources.infosecinstitute.com/what-is-enumeration/#gref
+> * https://www.sans.edu/cyber-research/security-laboratory/article/attacks-browsing
+> * Recon sript: https://github.com/bitsadmin/miscellaneous/blob/master/localrecon.cmd
+> * SMB: https://hackercool.com/2016/07/smb-enumeration-with-kali-linux-enum4linuxacccheck-smbmap/
+> * * Vanquish: https://github.com/frizb/Vanquish
+> - Reconnaissance with Recon-Ng, Part 1 (Getting Started): https://null-byte.wonderhowto.com/how-to/hack-like-pro-reconnaissance-with-recon-ng-part-1-getting-started-0169854/
 
 # Buffer Overflow
 - https://www.sans.org/reading-room/whitepapers/threats/paper/481
 * https://github.com/justinsteven/dostackbufferoverflowgood
-* Corelan - https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/
+
 * https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/
 * https://www.corelan.be/index.php/2009/07/23/writing-buffer-overflow-exploits-a-quick-and-basic-tutorial-part-2/
-* http://www.opensecuritytraining.info/IntroX86.html
-* https://exploit-exercises.com/protostar/
+
+> * https://exploit-exercises.com/protostar/
+> * http://www.opensecuritytraining.info/IntroX86.html
 
 # Exploitation
-
 - https://sploitfun.wordpress.com/2015/06/26/linux-x86-exploit-development-tutorial-series/
 * https://pen-testing.sans.org/blog/2012/06/06/escaping-restricted-linux-shells
 * https://pen-testing.sans.org/blog/2013/05/06/netcat-without-e-no-problem
@@ -156,66 +144,50 @@
 * Spawning a TTY (Interactive) Shell - https://netsec.ws/?p=337
 * Creating Metasploit Payloads - https://netsec.ws/?p=331
 
-# Privilege Escalation - linux
+# Windows exploitation
+- https://github.com/GuardianRG/awesome-windows-exploitation
+    - https://github.com/GuardianRG/awesome-windows-exploitation/blob/d84ec32638c7362bd21b4f66639ddc9c763e7cc7/README.md
+- https://n0where.net/awesome-windows-exploitation-resources
 
-* https://github.com/pentestmonkey/unix-privesc-check
-* Linux: Basic Linux Privilege Escalation - https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
-* Linux: linuxprivchecker.py - http://www.securitysift.com/download/linuxprivchecker.py
-* Linux: LinEnum - https://github.com/rebootuser/LinEnum
-* https://github.com/absolomb/Pentesting/blob/master/guides/LinuxPrivEsc.md
-* https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation
-* http://resources.infosecinstitute.com/privilege-escalation-linux-live-examples/#gref
-* https://netsec.ws/?p=309
-* https://exploit-exercises.com/nebula/
-* Privilege Escalation: https://chryzsh.gitbooks.io/pentestbook/privilege_escalation_-_linux.html?utm_content=bufferbb550&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+# Privilege Escalation - linux
+> * https://github.com/pentestmonkey/unix-privesc-check
+> * Linux: linuxprivchecker.py - http://www.securitysift.com/download/linuxprivchecker.py
+> * Linux: LinEnum - https://github.com/rebootuser/LinEnum
+> * http://resources.infosecinstitute.com/privilege-escalation-linux-live-examples/#gref
 
 # Privilege Escalation - Windows
+> * https://github.com/pentestmonkey/windows-privesc-check
+> * Windows Privilege Escalation Methods for Pentesters: https://pentest.blog/windows-privilege-escalation-methods-for-pentesters/
+> * Windows:Elevating privileges by exploiting weak folder permissions - http://www.greyhathacker.net/?p=738
+> * Windows: Windows-Exploit-Suggester - https://github.com/GDSSecurity/Windows-Exploit-Suggester
+> * Using Credentials to Own Windows Boxes - Part 1 (from Kali): https://blog.ropnop.com/using-credentials-to-own-windows-boxes/
+> * Using Credentials to Own Windows Boxes - Part 2 (PSExec and Services): https://blog.ropnop.com/using-credentials-to-own-windows-boxes-part-2-psexec-and-services/
+> * Using Credentials to Own Windows Boxes - Part 3 (WMI and WinRM): https://blog.ropnop.com/using-credentials-to-own-windows-boxes-part-3-wmi-and-winrm/-
 
-* https://github.com/pentestmonkey/windows-privesc-check
-* windows post exploration commands: http://www.handgrep.se/repository/cheatsheets/postexploitation/WindowsPost-Exploitation.pdf
-* windows-kernel-exploits Windows: https://github.com/SecWiki/windows-kernel-exploits
-* Windows Privilege Escalation Methods for Pentesters: https://pentest.blog/windows-privilege-escalation-methods-for-pentesters/
-* http://www.fuzzysecurity.com/tutorials/16.html
-* Windows:Elevating privileges by exploiting weak folder permissions - http://www.greyhathacker.net/?p=738
 * Windows: Privilege Escalation Fundamentals - http://www.fuzzysecurity.com/tutorials/16.html
-* Windows: Windows-Exploit-Suggester - https://github.com/GDSSecurity/Windows-Exploit-Suggester
-* Windows: Privilege Escalation Commands - http://pwnwiki.io/#!privesc/windows/index.md
 * Practical Windows Privilege Escalation - https://www.youtube.com/watch?v=PC_iMqiuIRQ
-* https://github.com/netbiosX/Checklists/blob/master/Windows-Privilege-Escalation.md
-* https://pentest.blog/windows-privilege-escalation-methods-for-pentesters
-* https://toshellandback.com/2015/11/24/ms-priv-esc
-* https://github.com/abatchy17/WindowsExploits
-* https://github.com/SecWiki/windows-kernel-exploits
-* https://github.com/codingo/The-Security-Handbook#windows-privilege-escalation
-* Using Credentials to Own Windows Boxes - Part 1 (from Kali): https://blog.ropnop.com/using-credentials-to-own-windows-boxes/
-* Using Credentials to Own Windows Boxes - Part 2 (PSExec and Services): https://blog.ropnop.com/using-credentials-to-own-windows-boxes-part-2-psexec-and-services/
-* Using Credentials to Own Windows Boxes - Part 3 (WMI and WinRM): https://blog.ropnop.com/using-credentials-to-own-windows-boxes-part-3-wmi-and-winrm/
 
 # Privilege Escalation - Common
-
-* MySQL Root to System Root with UDF -
+> - MySQL Root to System Root with UDF -
 https://www.adampalmer.me/iodigitalsec/2013/08/13/mysql-root-to-system-root-with-udf-for-windows-and-linux/
 
 # Client Side Attacks
-
-*  Metasploit Unleashed - https://www.offensive-security.com/metasploit-unleashed/client-side-attacks/
+-  Metasploit Unleashed - https://www.offensive-security.com/metasploit-unleashed/client-side-attacks/
 
 # Web Attacks
+> * SQLI - https://www.exploit-db.com/papers/13045/
+> * OverTheWire: Natas - http://overthewire.org/wargames/natas/
+> * Learning LFI-RFI -1 - https://www.hackersonlineclub.com/lfi-rfi/
+> * Learning LFI-RFI -2 - https://0xzoidberg.wordpress.com/category/security/lfi-rfi/
+> * SQL Injection Cheat-sheet -1 - http://resources.infosecinstitute.com/backdoor-sql-injection/
 
-* SQLI - https://www.exploit-db.com/papers/13045/
-* Local file inclusion - https://www.exploit-db.com/docs/40992.pdf
-* OverTheWire: Natas - http://overthewire.org/wargames/natas/
-* Learning LFI-RFI -1 - https://www.hackersonlineclub.com/lfi-rfi/
-* Learning LFI-RFI -2 - https://0xzoidberg.wordpress.com/category/security/lfi-rfi/
-* SQL Injection Cheat-sheet -1 - http://resources.infosecinstitute.com/backdoor-sql-injection/
+* Local file inclusion - https://www.exploit-db.com/docs/english/40992-web-app-penetration-testing---local-file-inclusion-(lfi).pdf
 
 # Password Attacks
-
 * https://alexandreborgesbrazil.files.wordpress.com/2013/08/introduction_to_password_cracking_part_1.pdf
 
 
 # Practice
-
 * Root-me.org
 * https://www.rebootuser.com/
 * https://cmdchallenge.com/
@@ -227,33 +199,11 @@ https://www.adampalmer.me/iodigitalsec/2013/08/13/mysql-root-to-system-root-with
 * http://overthewire.org/wargames/natas/
 
 # Books
-
-* Penetration Testing: A Hands-On Introduction to Hacking
-* The Hacker Playbook 3: Practical Guide To Penetration Testing
-* The Web Application Hacker’s Handbook: Finding and Exploiting Security Flaws
-* Black Hat Python: Python Programming for Hackers and Pentesters
-* Hacking: The Art of Exploitation, 2nd Edition
-
-# Aliases
-
-```
-## ALIASES
-alias vpn='openvpn /root/pwnshare/VPN/OS-XXXXX-PWK.ovpn'
-alias rdp='rdesktop -g 85% -u offsec -p PASSWORD_HERE 10.11.14.134 &'
-alias mapshare='ln -s /mnt/hgfs/Pwn_Share/ /root/pwnshare'
-alias l='ls -la'
-alias webup='python -m SimpleHTTPServer 80'
-//  run tcpdump’s from VPN interface and to only look at source IP’s from the other attackers range and with a destination of my assigned IP
-alias shieldsup='tcpdump -i tap0 -nnvv src net 10.11.0.0/24 and dst 10.11.0.54 -w - | tee capture.pcap | tcpdump -n -r -'
-alias ss='searchsploit $1'
-alias ssx='searchsploit -x $1'
-```
-
-# Windows exploitation
-- https://github.com/GuardianRG/awesome-windows-exploitation
-- https://n0where.net/awesome-windows-exploitation-resources
-- Transferring Files from Linux to Windows (post-exploitation): https://blog.ropnop.com/transferring-files-from-kali-to-windows/
-
+- Penetration Testing: A Hands-On Introduction to Hacking
+- The Hacker Playbook 3: Practical Guide To Penetration Testing
+- The Web Application Hacker’s Handbook: Finding and Exploiting Security Flaws
+- Black Hat Python: Python Programming for Hackers and Pentesters
+- Hacking: The Art of Exploitation, 2nd Edition
 
 # Shell
 - https://highon.coffee/blog/reverse-shell-cheat-sheet/
@@ -262,13 +212,3 @@ alias ssx='searchsploit -x $1'
 
 # Payloads
 - Creating Metasploit Payloads: https://netsec.ws/?p=331
-
-# Important Locations
-```
-/etc/
-/etc/passwd
-/etc/fstab
-/etc/hosts
-/etc/init.d
-/usr/sbin
-```

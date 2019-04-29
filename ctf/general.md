@@ -28,6 +28,10 @@
 - http://enigmagroup.org
 
 
+# Google CTFs
+- https://github.com/google/google-ctf
+
+
 # CrackMe sites
 
 - http://crackmes.de/
@@ -38,7 +42,7 @@
 - https://github.com/PELock/CrackMeZ3S-CTF-CrackMe-Tutorial/
 
 # Writeups
-
+- Metasploitable: https://hackercool.com/metasploitable/
 - Binary/HTB: https://0xrick.github.io/categories/
 - HTB Writeups: https://www.peerlyst.com/posts/how-to-break-into-tr0ll-1-machine-writeup-spirited-wolf
 

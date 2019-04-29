@@ -55,10 +55,12 @@ Performs OSINT scan on email/domain/ip_address/organization.
 - https://www.shodan.io
   - Find compromised NoSQL systems from Shodan JSON export: https://gist.github.com/n0x08/39c4fef373d0ac02d61da5d1d3865ce5
 - https://censys.io/
+- https://www.zoomeye.org/
+
 - https://www.binaryedge.io/
 
 - https://viz.greynoise.io/table
-- https://www.zoomeye.org/
+
 - https://fofa.so/
 - https://www.onyphe.io/
 - https://hunter.io/

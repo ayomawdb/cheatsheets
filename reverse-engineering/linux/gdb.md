@@ -8,6 +8,10 @@
 info registers
 info all-registers
 ```
+# Display memory map
+```
+vmmap
+```
 
 # Display Registers / Memory
 ```
@@ -30,4 +34,9 @@ disassemble $eip
 # Print Type Information
 ```
 ptype Student
+```
+
+# Check security information
+```
+checksec
 ```

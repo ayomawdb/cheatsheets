@@ -45,3 +45,22 @@ It is possible that the set of updates is too large for only one response messag
 
 “When a DC receives a DSReplicaSync Request, then for each DC that it replicates from (stored in RepsFrom data structure) it performs a replication cycle where it behaves like a client and makes DSGetNCChanges requests to that DC. So it gets up-to-date AD objects from each of the DC’s which it replicates from.”
 ```
+
+# Sys Internals
+
+> https://technet.microsoft.com/en-in/sysinternals/bb545021.aspx
+
+- `PsExec` - Execute processes on remote machine
+- `PsFile` - Displays list of files opened remotely.
+- `PsGetSid` - Translate SID to display name and vice versa
+- `PsKill` - Kill processes on local or remote machine
+- `PsInfo` - Displays installation, install date, kernel build, physical memory, processors type and number, etc.
+- `PsList` - Displays process, CPU, Memory, thread statistics
+- `PsLoggedOn` - Displays local and remote logged users
+- `PsLogList` - View Event logs
+
+# localrecon.cmd
+
+Utility to generate a summary of a Windows system
+
+https://github.com/bitsadmin/miscellaneous/blob/master/localrecon.cmd

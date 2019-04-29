@@ -1,3 +1,7 @@
+# Update Download locations
+```
+C:\Windows\SoftwareDistribution\Download  
+```
 # Collections
 
 - Living Off The Land Binaries and Scripts: https://lolbas-project.github.io/ li, https://github.com/LOLBAS-Project/LOLBAS

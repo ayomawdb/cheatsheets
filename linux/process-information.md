@@ -2,12 +2,14 @@
 ```
 ps aux
 
-all processes (a)
-the user (u)
-processes not associated with a terminal (x)
+  all processes (a)
+  the user (u)
+  processes not associated with a terminal (x)
 
 ps -ef
 ps -eF
+
+top
 ```
 
 Tree of processes (processes & threads):
@@ -41,7 +43,7 @@ pmap -d 1234
 - `/proc/<id>/environ` environment variables
 - `/proc/<id>/cmdline` command line args/command used to run the process
 - `/proc/<id>/maps` memory map
-- `/proc/<id>/fd` open file descriptors 
+- `/proc/<id>/fd` open file descriptors
 
 # System and library calls
 - `ltrace`
@@ -53,10 +55,12 @@ pmap -d 1234
 
 # Other
 ```
-top
 killall <name>
 kill -9 <pid>
 kill <pid>
+```
+
+```
 fg
 bg
 [Ctrl+Z]

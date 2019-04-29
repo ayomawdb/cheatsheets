@@ -1,4 +1,5 @@
 # References
+- 101 - https://www.youtube.com/watch?v=Min6DWTHDBw&feature=em-uploademail
 - Reverse Engineering for Beginners: https://www.begin.re/
 - Learning Radare2 by Reversing a UMPC Bios: https://stragedevices.blogspot.com/2019/02/finding-verified-intel-atom-msrs-in.html
 - Survival guide for Radare2 with practice: https://github.com/ZigzagSecurity/survival-guide-radare2

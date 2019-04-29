@@ -1,3 +1,9 @@
+# Cheatsheets
+- https://netsec.ws/?p=337
+- http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
+- https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/
+- https://forum.hackthebox.eu/discussion/142/obtaining-a-fully-interactive-shell
+
 # web ttys
 - https://github.com/maxmcd/webtty
 
@@ -34,7 +40,7 @@ stty raw -echo
 ```
 reset
 export SHELL=bash
-export TERM=xterm256-color
+export TERM=xterm
 stty rows 38 columns 116
 ```
 

@@ -2,6 +2,14 @@
 - Exploiting Vulnerabilities Through Proper Reconnaissance: https://docs.google.com/presentation/d/1xgvEScGZ_ukNY0rmfKz1JN0sn-CgZY_rTp2B_SZvijk/edit#slide=id.g4052c4692d_0_0
 - Recon My Way: https://github.com/ehsahil/recon-my-way
 
+# Vanquish
+
+Vanquish is Kali Linux based Enumeration Orchestrator.
+
+```
+| NMap | Hydra | Nikto | Metasploit | | Gobuster | Dirb | Exploitdb | Nbtscan | | Ntpq | Enum4linux | Smbclient | Rpcclient | | Onesixtyone | Sslscan | Sslyze | Snmpwalk | | Ident-user-enum | Smtp-user-enum | Snmp-check | Cisco-torch | | Dnsrecon | Dig | Whatweb | Wafw00f | | Wpscan | Cewl | Curl | Mysql | Nmblookup | Searchsploit | | Nbtscan-unixwiz | Xprobe2 | Blindelephant | Showmount |
+```
+
 # LazyRecon
 
 An automated approach to performing recon for bug bounty hunting and penetration testing.

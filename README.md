@@ -1,6 +1,10 @@
 # cheatsheets
 BriskSec Security Cheatsheets
 
+# Day to day tools
+- CyberChef:  https://gchq.github.io/CyberChef
+  - https://www.youtube.com/watch?v=LnhSTZgzKuY
+
 # Pending Reads
 Analysis of following malware:
 * Badrabbit

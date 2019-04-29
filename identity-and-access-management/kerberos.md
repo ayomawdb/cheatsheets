@@ -143,3 +143,7 @@ Get-ADObject -Filter {msDS-AllowedToDelegateTo -ne "$null"} -Properties msDS-All
 * Delegation occurs not only for the specific service but for any service running under the same account. No validation for the SPN specified.
 
 > https://labs.mwrinfosecurity.com/blog/trust-years-to-earn-seconds-to-break/
+
+
+# Reference:
+- https://blog.redforce.io/oh-my-kerberos-do-not-get-kerberoasted/

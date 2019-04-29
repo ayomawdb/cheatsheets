@@ -11,7 +11,7 @@ nc -‐nv 192.168.11.215 25
 
 # "HELP" Command
 
-# "VRFY" & "EXPN" Command:
+# User enumeration with: "VRFY", "EXPN" & "RCPT" commands:
 
 ```
 VRFY username (verifies if username exists - enumeration of accounts)
@@ -33,7 +33,7 @@ EXPN username (verifies if username is valid - enumeration of accounts)
 HELO anything MAIL FROM: spoofed_address RCPT TO:valid_mail_account DATA . QUIT
 ```
 > http://0daysecurity.com/penetration-testing/enumeration.html
-  
+
 # Mail Relay
 ```
 HELO anything
@@ -54,3 +54,15 @@ Disparate formatting - mail from: <user@[IP Address]> rcpt to: <@domain:nobody@r
 Disparate formatting2 - mail from: <user@[IP Address]> rcpt to: <recipient_domain!nobody@[IP Address]>
 ```
 > http://0daysecurity.com/penetration-testing/enumeration.html
+
+# Tools
+
+## smtp_enum
+```
+auxiliary/scanner/smtp/smtp_enum
+```
+
+## smtp-enum-users.nse
+```
+nmap –script smtp-enum-users.nse 172.16.212.133
+```

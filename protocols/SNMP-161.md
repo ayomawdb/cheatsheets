@@ -6,6 +6,13 @@
 
 Devices often support configuration file read and write through private SNMP community string access. Hence having access to private string means router configuration can be altered.
 
+# Configuration Files
+```
+snmp.conf
+snmpd.conf
+snmp-config.xml
+```
+
 # SNMP - Management Information Base (MBI)
 
 Tree database related to network management.
@@ -34,10 +41,42 @@ snmpwalk -c public -v1 <ip> 1.3.6.1.2.1.25.4.2.1.2
  • 1.3.6.1.2.1.6.13.1.3	 TCP Local Ports
 ```
 
+# Default community strings
+```
+public
+private
+cisco
+  cable-docsis
+  ILMI
+```
+
+# Important properties
+```
+Windows NT
+.1.3.6.1.2.1.1.5 Hostnames
+.1.3.6.1.4.1.77.1.4.2 Domain Name
+.1.3.6.1.4.1.77.1.2.25 Usernames
+.1.3.6.1.4.1.77.1.2.3.1.1 Running Services
+.1.3.6.1.4.1.77.1.2.27 Share Information
+```
+
 # Tools
 
-- snmpwalk
-- snmpenum
+## snmpenum
+```
+perl snmpenum.pl 192.168.38.200 public windows.txt
+```
+
+## snmpwalk
+```
+snmpwalk -c public 192.168.38.200 -v 1
+```
+
+- OpUtils
+- SolarWinds
+- SNScan
+- SNMP Scanner
+- NS Auditor
 - snmpcheck
 - onesixtyone
   - Scan one community string for multiple IPs
